@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <h1>Your sentence will be displayed here</h1>
+            <button class="generate-button" onclick="modifySentence()">GENERATE !</button>
+        </div>
+    </main>
+    <fieldset>
+        <legend><h2>Settings Box</h2></legend>
+        <div class="radio">
+            <label>Past Tense Verbs</label>
+            <input class="past-verbs radio radio1" type="radio" name="tense">
+            <span class="custom"></span>
+        </div>
+        <div class="radio radio2">
+            <label>Future Tense Verbs</label>
+            <input class="future-verbs" type="radio" name="tense">
+            <span class="custom"></span>
+        </div>
+        <div class="checkbox checkbox1">
+            <label>Include Adverbs</label>
+            <input class="include-adverbs" type="checkbox">
+            <span class="custom"></span>
+        </div>
+        <div class="checkbox checkbox2">
+            <label>Include Adjectives</label>
+            <input class="include-adjectives" type="checkbox">
+            <span class="custom"></span>
+        </div>
+        <div class="checkbox checkbox3">
+            <label>Include Complements</label>
+            <input class="include-complements" type="checkbox">
+            <span class="custom"></span>
+        </div>
+        <button onclick="clearAll()" class="clear-button">CLEAR ALL</button>
+    </fieldset>
+    <h3>By Mykiora (Antho)</h3>
+</body>
+<script src="script.js"></script>
+</html>
